@@ -5,10 +5,10 @@ export default function MobileView() {
     // </div>
     <div className="relative h-[90vh] w-[22%]">
     {/* Grey Layer (Slightly Bigger) */}
-    <div className="absolute -inset-2 rounded-[50px] -z-10 outline outline-[2px] outline-[#d3d3d32b]"></div>
+    <div className="absolute -inset-1.5 rounded-[30px] -z-10 outline outline-[1px] outline-[#eaeaea4d]"></div>
     
     {/* Main Container */}
-    <div className="relative bg-white p-4 h-full w-full rounded-[45px] outline outline-[2px] outline-[#d3d3d32b] shadow-[0_10px_10px_rgba(0,0,0,0.1)]"></div>
+    <div className="relative bg-white p-4 h-full w-full rounded-[30px] outline outline-[1px] outline-[#eaeaea4d] shadow-[0_10px_10px_rgba(0,0,0,0.1)]"></div>
   </div>
   );
 }
